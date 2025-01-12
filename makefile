@@ -1,3 +1,5 @@
+HEADERS := $(wildcard src/headers/*.hpp) # nothing
+
 compile:
 	@g++ -c main.cpp -IC:/SFML-3.0.0/include
 
@@ -11,4 +13,4 @@ remove:
 	@del sfml-app.exe
 	@del main.o
 
-build: compile link execute
+build: compile link execute remove

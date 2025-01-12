@@ -1,3 +1,13 @@
 {
-    "makefile.makefilePath": "makefile"
+    "makefile.makefilePath": "makefile",
+    "C_Cpp.default.compilerPath": "C:\\mingw32\\bin\\g++.exe",
+    "C_Cpp.errorSquiggles": "enabled",
+    "makefile.launchConfigurations": [
+        
+        {
+            "cwd": "d:\\Physic-Simulation",
+            "binaryPath": "d:\\Physic-Simulation\\sfml-app",
+            "binaryArgs": []
+        }
+    ]
 }
